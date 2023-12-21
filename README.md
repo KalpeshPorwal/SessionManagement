@@ -8,10 +8,7 @@ To use this code do the following:
 1. Clone this repo or download it.
 2. Navigate into the location you downloaded folder in your cmd/bash/terminal
 3. Run npm install to install all the depends in this projects (express, express-session, mongoose, ejs, bcryptjs, connect-mongodb-session)
-4. create default.json in config folder. Then add below object in it.
-    {
-        "mongoURI": "your mongodb uri"
-    }
-5. Check inside of the config folder under the default.json for the mongodb URI and insert your own connection string 
+4. create default.json in config folder. Then add {mongoURI: "your mongodb URI"} object in it.
+     
 
 Hope you found this helpfull and I will see you in the next one...!
